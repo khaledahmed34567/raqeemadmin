@@ -1,7 +1,7 @@
 {
-  "versionCode": 29,
-  "versionName": "1.0.28",
+  "versionCode": 30,
+  "versionName": "1.0.29",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إصلاح إضافة المدراء: الإيميل بيتحفظ مع كود الدخول، ورسالة أوضح للأدمن الجديد لو مفيش إيميل متسجل",
+  "notes": "ملخص الأسبوع يوم الجمعة 9 مساءً بطلبات ومبيعات آخر 7 أيام، زر تحديث على الويدجت بيجلب الطلبات فورًا، وزر نسخ الملخص بيضيف سطر الأسبوع",
   "force": true
 }

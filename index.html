@@ -79,10 +79,10 @@ catch(x){unl=false;const o=JSON.parse(localStorage.rl||"{}");o.n=(o.n||0)+1;if(o
 const ADMW="https://raqeem-bot.khaledahmedelbrbary80.workers.dev",_dl=window.doLogin;
 window.doLogin=async()=>{const c=$("code").value.trim(),e=$("le");if(c.length!=16)return _dl();const w=lim();if(w)return e.textContent="حاول بعد "+w+" ثانية";
 if(!/^[A-Za-z0-9!@#$%&*?+=\-]{16}$/.test(c))return e.textContent="الكود غير صحيح";
-$("lb").disabled=true;e.textContent="";unl=true;let bad=false;try{await FBP;if(window.FBERR)throw 0;const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),15000);let r;try{r=await fetch(ADMW+"/admin/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({code:c}),credentials:"omit",referrerPolicy:"no-referrer",signal:ctl.signal})}finally{clearTimeout(tm)}
-const j=await r.json().catch(()=>({}));if(!j||!j.ok||!j.token){unl=false;const m=j&&j.error;if(m=="invalid"||m=="format"){bad=true;e.textContent="الكود غير صحيح"}else if(m=="revoked")e.textContent="الحساب ده موقوف. كلّم الأدمن الرئيسي";else if(m=="rate")e.textContent="محاولات كتير. استنى شوية وجرب تاني";else e.textContent="تعذر تسجيل الدخول، جرب تاني"}
-else{window.__welcome=j.name||"";await fb.signInWithCustomToken(au,j.token);localStorage.rl="{}";$("code").value=""}}
-catch(x){unl=false;e.textContent="تعذر الاتصال، جرب تاني"}
+$("lb").disabled=true;e.textContent="";unl=true;let bad=false,stg="fb";try{await FBP;if(window.FBERR)throw 0;stg="net";const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),15000);let r;try{r=await fetch(ADMW+"/admin/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({code:c}),credentials:"omit",referrerPolicy:"no-referrer",signal:ctl.signal})}finally{clearTimeout(tm)}
+stg="http"+r.status;const j=await r.json().catch(()=>({}));if(!j||!j.ok||!j.token){unl=false;const m=j&&j.error;if(m=="invalid"||m=="format"){bad=true;e.textContent="الكود غير صحيح"}else if(m=="revoked")e.textContent="الحساب ده موقوف. كلّم الأدمن الرئيسي";else if(m=="rate")e.textContent="محاولات كتير. استنى شوية وجرب تاني";else e.textContent="تعذر تسجيل الدخول، جرب تاني ("+stg+(m?" "+m:"")+")"}
+else{window.__welcome=j.name||"";stg="sign";await fb.signInWithCustomToken(au,j.token);localStorage.rl="{}";$("code").value=""}}
+catch(x){unl=false;e.textContent="تعذر الاتصال، جرب تاني ("+stg+(x&&(x.code||x.name)?" "+(x.code||x.name):"")+")"}
 if(bad){const o=JSON.parse(localStorage.rl||"{}");o.n=(o.n||0)+1;if(o.n>=5)o.u=Date.now()+60000*Math.min(30,2**(o.n-5));localStorage.rl=JSON.stringify(o)}$("lb").disabled=false};
 window.askBio=()=>{window.__bio=ok=>{if(ok){unl=true;showApp()}else toast("فشل التحقق")};BIO.auth()};
 window.doOut=async()=>{unl=false;role="";subs.forEach(u=>u());subs=[];started=false;try{await fb.signOut(au)}catch(e){}show("v-login")};

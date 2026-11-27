@@ -46,7 +46,7 @@ const app=m.initializeApp({apiKey:"AIzaSyAh6U_SyBdhvcy9JI89YHu3jlXIS1ANW8A",auth
 db=f.getFirestore(app);au=a.getAuth(app);fb=a;({collection:col,doc:dr,getDoc:gd,addDoc:add,setDoc:sd,updateDoc:ud,deleteDoc:dd,onSnapshot:onS,query:qy,orderBy:ob,limit:lm,writeBatch:wb}=f)}catch(e){window.FBERR=1}})();
 const toast=m=>{const d=document.createElement("div");d.textContent=m;$("toast").appendChild(d);setTimeout(()=>d.remove(),3500)},err=e=>toast("خطأ: "+((e&&(e.code||e.message))||e));
 const dt=t=>new Date(t).toLocaleString("ar-EG"),ser=o=>"RQ-"+new Date(o.at).toISOString().slice(2,10).replace(/-/g,"")+"-"+o.id.slice(0,6).toUpperCase();
-const nmU=u=>[u.f1,u.f2,u.f3].filter(Boolean).join(" ")||u.email||u.id,adr=a=>a?[a.gov,a.markaz,a.street,"رقم "+a.house,a.landmark].join("، "):"";
+const nmU=u=>[u.f1,u.f2,u.f3].filter(Boolean).join(" ")||u.email||u.id,adr=a=>a?[a.gov,a.markaz,a.village&&a.village!=a.markaz?a.village:"",a.street,"رقم "+a.house,a.landmark].filter(Boolean).join("، "):"";
 const stt=(i,l,v)=>`<div class="stt">${i}<b>${v}</b><span>${l}</span></div>`;
 /* ---- anti copy ---- */
 ["contextmenu","copy","cut","dragstart","selectstart"].forEach(ev=>document.addEventListener(ev,e=>{if(!/^(INPUT|TEXTAREA)$/.test(e.target.tagName))e.preventDefault()}));

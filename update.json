@@ -1,7 +1,7 @@
 {
-  "versionCode": 40,
-  "versionName": "1.0.39",
+  "versionCode": 41,
+  "versionName": "1.0.40",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "أي إشعار في السجل بينسخ بضغطة، زر مشاركة الملخص لواتساب وغيره، وملخص 8م بيضيف حصيلة الأسبوع لحد دلوقتي",
+  "notes": "هدف مبيعات يومي (1000 لحد 5000 ج.م) بيظهر في الملخصات وإشعارات المحطات، وشريط تقدم الهدف على الويدجت",
   "force": true
 }

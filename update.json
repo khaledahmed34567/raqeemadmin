@@ -1,7 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "1.0.41",
+  "versionCode": 43,
+  "versionName": "1.0.42",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "زر ينسخ بيانات الدعم الفني بلقطة، ضغطة على الويدجت تفتح شاشة الحالة، وأعلى يوم في أسبوعك بيتكتب في الملخص المشترك",
+  "notes": "إشعار إنجاز عند كل محطة في إجمالي طلباتك (100، 500، 1000...)، تفصيل أيام الأسبوع في شاشة الحالة، وآخر مزامنة ظاهرة على الويدجت",
   "force": true
 }

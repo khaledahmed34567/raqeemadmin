@@ -1,7 +1,7 @@
 {
-  "versionCode": 45,
-  "versionName": "1.0.44",
+  "versionCode": 46,
+  "versionName": "1.0.45",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "عدّاد التقييمات بمتوسط النجوم والتقييمات المنخفضة، زر مشاركة تقرير الأسبوع يوم بيوم، وزر تجربة الإشعارات",
+  "notes": "سطر يوريك أقرب تنبيه مجدول، عدّاد المستخدمين الجدد النهاردة، واختصارات لإعدادات إشعارات النظام والبطارية",
   "force": true
 }

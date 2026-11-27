@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "1.0.18",
+  "versionCode": 20,
+  "versionName": "1.0.19",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إصلاح خطأ تفعيل الجلسة (F: shape)، الجلسة دائمة بعد أول دخول بالكود — الفتح بعدها بالبصمة فقط، والرجوع لشاشة الكود يحصل فقط لو الكود اتلغى",
+  "notes": "شاشة كود اللوحة اختفت جوّه التطبيق نهائيًا — الدخول تلقائي مع سبينر وزرار إعادة محاولة شغال، وتجديد فوري صامت للجلسة",
   "force": true
 }

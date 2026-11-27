@@ -114,7 +114,7 @@ window.del_=async(c,id)=>{if(!confirm("تأكيد الحذف؟"))return;try{awai
 /* ---- orders ---- */
 window.od=id=>{const o=O.find(x=>x.id==id);if(!o)return;
 mo(`<h3 dir="ltr" style="text-align:start">${ser(o)}</h3><span class="sb s${o.payStatus}">${PSL[o.payStatus]||""}</span>${o.pay=="cod"?'<span class="sb" style="background:#3b2a12;color:#ffb066">الدفع عند الاستلام</span>':""}<p class="m">${dt(o.at)}</p>
-<div class="box2"><b>${esc(o.name)}</b><br><span dir="ltr">${esc(o.phone)}</span><br>${esc(o.email)}<br>${esc(adr(o.addr))}</div>
+<div class="box2"><b>${esc(o.name)}</b><br><span dir="ltr">${esc(o.phone)}</span><br>${esc(o.email)}<br>${esc(adr(o.addr))}${o.note?`<br><b style="color:#ffb066">ملاحظة:</b> ${esc(o.note)}`:""}</div>
 <table>${(o.items||[]).map(i=>`<tr><td>${esc(i.name)}</td><td>×${i.q}</td><td>${i.price*i.q}</td></tr>`).join("")}</table>
 <div class="r"><span>التوصيل ${o.delivery||0} ${o.disc?" • خصم "+o.disc:""}</span><b>${o.total} ج.م</b></div>
 <div class="box2">طريقة الدفع: ${o.pay=="cod"?"الدفع عند الاستلام":o.pay=="instapay"?"إنستاباي":"فودافون كاش"}<br>رقم التحويل: <span dir="ltr">${esc(o.ref||"—")}</span>${o.proof?`<br><a href="${esc(o.proof)}" target="_blank"><img class="pfm" src="${esc(o.proof)}" alt=""></a>`:""}</div>
@@ -143,7 +143,7 @@ const sigA=async(id,o)=>{try{const b=await crypto.subtle.digest("SHA-256",new Te
 const ldS=u=>new Promise((r,j)=>{if(document.querySelector('script[src="'+u+'"]'))return r();const s=document.createElement("script");s.src=u;s.onload=r;s.onerror=j;document.head.appendChild(s)});
 let IV=null,DLB=0;
 const invHtml=(id,o)=>{const s=o.payStatus||"unpaid",cod=o.pay=="cod",how=cod?"الدفع عند الاستلام":o.pay=="instapay"?"إنستاباي":"فودافون كاش",ap=s=="approved";
-return `<div id="invc" class="${ap?"paid":""}"><div class="ih"><img src="${RQL}" alt="raqeem"><span class="sb2 ${s}">${PSL[s]||""}</span></div><p class="mt">الرقم التسلسلي: <b dir="ltr">${ser(Object.assign({id},o))}</b><br>رقم الطلب: <b>${esc(id)}</b><br>${new Date(o.at).toLocaleString("ar-EG")}<br><span>${hij(o.at)}</span></p><p><b>${esc(o.name)}</b> — <span dir="ltr">${esc(o.phone)}</span><br>${esc(adr(o.addr))}</p>
+return `<div id="invc" class="${ap?"paid":""}"><div class="ih"><img src="${RQL}" alt="raqeem"><span class="sb2 ${s}">${PSL[s]||""}</span></div><p class="mt">الرقم التسلسلي: <b dir="ltr">${ser(Object.assign({id},o))}</b><br>رقم الطلب: <b>${esc(id)}</b><br>${new Date(o.at).toLocaleString("ar-EG")}<br><span>${hij(o.at)}</span></p><p><b>${esc(o.name)}</b> — <span dir="ltr">${esc(o.phone)}</span><br>${esc(adr(o.addr))}</p>${o.note?`<p><b>ملاحظة:</b> ${esc(o.note)}</p>`:""}
 <table><tr><th>المنتج</th><th>الكمية</th><th>السعر</th><th>الإجمالي</th></tr>${(o.items||[]).map(i=>`<tr><td>${esc(i.name)}</td><td>${i.q}</td><td>${i.price}</td><td>${i.price*i.q}</td></tr>`).join("")}</table>
 <div class="tt"><div><span>المجموع</span><span>${o.sub!=null?o.sub:""}</span></div>${o.disc?`<div><span>${esc(o.coupon||"خصم")}</span><span>-${o.disc}</span></div>`:""}<div><span>التوصيل</span><span>${o.delivery||"مجاني"}</span></div><div class="gt"><span>الإجمالي</span><span>${o.total} ج.م</span></div></div>
 <div class="tl">${SL.map((x,i)=>`<div class="${i<=(o.status||0)?"on":""}"><i></i>${x}</div>`).join("")}</div><div class="inf"><b>طريقة الدفع:</b> ${how}<br><b>حالة الدفع:</b> ${PSL[s]||""}</div>

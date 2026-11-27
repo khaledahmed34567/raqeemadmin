@@ -1,7 +1,7 @@
 {
-  "versionCode": 16,
-  "versionName": "1.0.15",
+  "versionCode": 17,
+  "versionName": "1.0.16",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "شاشة تحديث جديدة كليًا: كارت مرتب، ملاحظات النسخة، شريط تحميل بالنسبة المئوية، أزرار برتقالية",
+  "notes": "دخول بكود الأدمن بدل جوجل، قفل بالبصمة فقط، جروب الأدمنز مع إرسال صور وروابط، خط رقيم في كل الشاشات، بدون سكرول رمادي",
   "force": true
 }

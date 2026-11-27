@@ -1,7 +1,7 @@
 {
-  "versionCode": 43,
-  "versionName": "1.0.42",
+  "versionCode": 44,
+  "versionName": "1.0.43",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إشعار إنجاز عند كل محطة في إجمالي طلباتك (100، 500، 1000...)، تفصيل أيام الأسبوع في شاشة الحالة، وآخر مزامنة ظاهرة على الويدجت",
+  "notes": "متوسط قيمة الطلب على بطاقة النهاردة، وقسم جديد يوضح عدد الطلبات في كل حالة (استلام، تجهيز، توصيل، تسليم)",
   "force": true
 }

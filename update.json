@@ -1,7 +1,7 @@
 {
-  "versionCode": 39,
-  "versionName": "1.0.38",
+  "versionCode": 40,
+  "versionName": "1.0.39",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "تاريخ النهاردة بالعربي فوق الكارت، تنبيه للمدفوعات المتأخر مراجعتها، والتقييمات المنخفضة (2 أو أقل) بتوصل بصوت عالي",
+  "notes": "أي إشعار في السجل بينسخ بضغطة، زر مشاركة الملخص لواتساب وغيره، وملخص 8م بيضيف حصيلة الأسبوع لحد دلوقتي",
   "force": true
 }

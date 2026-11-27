@@ -1,7 +1,7 @@
 {
-  "versionCode": 32,
-  "versionName": "1.0.31",
+  "versionCode": 33,
+  "versionName": "1.0.32",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "وقت الهدوء قابل للتعديل بثلاث نوافذ جاهزة، الويدجت بيعرض عدد مدفوعات المراجعة، وملخص اليوم بيقارن بإمبارح",
+  "notes": "إجمالي الأسبوع على الويدجت وكارت النهاردة، وإشعار الصبح بيجمع الطلبات المفتوحة والمدفوعات المعلقة",
   "force": true
 }

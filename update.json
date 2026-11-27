@@ -1,7 +1,7 @@
 {
-  "versionCode": 27,
-  "versionName": "1.0.26",
+  "versionCode": 28,
+  "versionName": "1.0.27",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "كود التحقق للدخول والخروج بقى على الإيميل بس — تليجرام اتشال من القناة دي",
+  "notes": "اختصار الطلبات بضغطة مطولة على أيقونة التطبيق، كارت النهاردة بطلبات ومبيعات اليوم فوق شاشة الحالة، وتنبيه على الويدجت لو المزامنة متأخرة",
   "force": true
 }

@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.17",
+  "versionCode": 19,
+  "versionName": "1.0.18",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إزالة جوجل نهائيًا من كل التطبيق واللوحة، تشخيص دقيق لأخطاء الدخول بالكود، مسح كاش اللوحة القديم بعد التحديث",
+  "notes": "إصلاح خطأ تفعيل الجلسة (F: shape)، الجلسة دائمة بعد أول دخول بالكود — الفتح بعدها بالبصمة فقط، والرجوع لشاشة الكود يحصل فقط لو الكود اتلغى",
   "force": true
 }

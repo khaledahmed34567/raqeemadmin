@@ -1,7 +1,7 @@
 {
-  "versionCode": 33,
-  "versionName": "1.0.32",
+  "versionCode": 34,
+  "versionName": "1.0.33",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إجمالي الأسبوع على الويدجت وكارت النهاردة، وإشعار الصبح بيجمع الطلبات المفتوحة والمدفوعات المعلقة",
+  "notes": "عداد الطلبات اللي اتسلّمت النهاردة على الكارت والملخص، ومراجعة المساء بتنبّه للطلبات المتأخرة يومين أو أكتر",
   "force": true
 }

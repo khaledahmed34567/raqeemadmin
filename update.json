@@ -1,7 +1,7 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.14",
+  "versionCode": 16,
+  "versionName": "1.0.15",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إصلاح تعليق تسجيل الدخول بحساب جوجل + إصلاح شكل اللوحة داخل التطبيق + أزرار وأيقونة وشعار أحسن",
+  "notes": "شاشة تحديث جديدة كليًا: كارت مرتب، ملاحظات النسخة، شريط تحميل بالنسبة المئوية، أزرار برتقالية",
   "force": true
 }

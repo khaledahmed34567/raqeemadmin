@@ -1,7 +1,7 @@
 {
-  "versionCode": 28,
-  "versionName": "1.0.27",
+  "versionCode": 29,
+  "versionName": "1.0.28",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "اختصار الطلبات بضغطة مطولة على أيقونة التطبيق، كارت النهاردة بطلبات ومبيعات اليوم فوق شاشة الحالة، وتنبيه على الويدجت لو المزامنة متأخرة",
+  "notes": "إصلاح إضافة المدراء: الإيميل بيتحفظ مع كود الدخول، ورسالة أوضح للأدمن الجديد لو مفيش إيميل متسجل",
   "force": true
 }

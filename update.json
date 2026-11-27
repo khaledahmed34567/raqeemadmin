@@ -1,7 +1,7 @@
 {
-  "versionCode": 31,
-  "versionName": "1.0.30",
+  "versionCode": 32,
+  "versionName": "1.0.31",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "مراجعة المساء 6م بالمدفوعات المعلقة والطلبات المفتوحة، إشعار تشجيعي عند كل ألف جنيه مبيعات، وزر إعدادات الإشعارات من شاشة الحالة",
+  "notes": "وقت الهدوء قابل للتعديل بثلاث نوافذ جاهزة، الويدجت بيعرض عدد مدفوعات المراجعة، وملخص اليوم بيقارن بإمبارح",
   "force": true
 }

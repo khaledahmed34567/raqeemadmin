@@ -1,1 +1,7 @@
-{"versionCode":14,"versionName":"1.0.13","apkUrl":"https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk","notes":"أزرار تقديم حالة الطلب من الإشعار + تنبيهات المخزون + نسخة احتياطية JSON + طباعة أوردرات اليوم","force":true}
+{
+  "versionCode": 15,
+  "versionName": "1.0.14",
+  "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
+  "notes": "إصلاح تعليق تسجيل الدخول بحساب جوجل + إصلاح شكل اللوحة داخل التطبيق + أزرار وأيقونة وشعار أحسن",
+  "force": true
+}

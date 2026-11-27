@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "1.0.34",
+  "versionCode": 36,
+  "versionName": "1.0.35",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "زر فتح المتجر من شاشة الحالة، ملخص الأسبوع بيذكر أعلى يوم مبيعات، وصف المخزون المنخفض والنافد في الحالة",
+  "notes": "عدد المنتجات في إشعارات الطلبات، تنبيه يومي لو المزامنة متأخرة، وإشعار الصبح بيلخّص مبيعات إمبارح",
   "force": true
 }

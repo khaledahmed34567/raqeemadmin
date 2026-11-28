@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "1.0.47",
+  "versionCode": 49,
+  "versionName": "1.0.48",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "سطر يحسب التطبيق شغال معاك من كام يوم، وسطر يوريك فاضل كام طلب على أقرب محطة",
+  "notes": "نسبة تغير مبيعات الأسبوع عن اللي فات، زر نسخ رابط المتجر للعملاء، والسلسلة والمتوسط في ملخص المشاركة",
   "force": true
 }

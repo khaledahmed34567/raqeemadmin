@@ -1,7 +1,7 @@
 {
-  "versionCode": 83,
-  "versionName": "1.0.82",
+  "versionCode": 86,
+  "versionName": "1.0.85",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.82: سطرا الطلبات لكل تقييم ومعدل التقييمات اليومي في الملخص الشامل، وسطر وضعك على خط الهدف في ملخص 2 الظهر"
+  "notes": "1.0.85: إصلاح تعليق شاشة البداية عند تسجيل الدخول التلقائي بعد التثبيت الجديد، وتسجيل دخول مباشر بعد التسجيل بالإيميل"
 }

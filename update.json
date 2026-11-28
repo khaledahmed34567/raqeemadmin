@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "1.0.49",
+  "versionCode": 51,
+  "versionName": "1.0.50",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "ملخص 8م بقى فيه مقارنة الأسبوع والسلسلة والتقييمات، ملخص الصبح فيه الهدف، مراجعة المساء فيها المخزون، وملخص الجمعة فيه نسبة التغير",
+  "notes": "زر يبعت ملخص اليوم كإشعار في أي وقت، معاينة تقرير الأسبوع في دايالوج، وضغطة على رقم النسخة تنسخها",
   "force": true
 }

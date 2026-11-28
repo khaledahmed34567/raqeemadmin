@@ -1,7 +1,7 @@
 {
-  "versionCode": 54,
-  "versionName": "1.0.53",
+  "versionCode": 55,
+  "versionName": "1.0.54",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "قفلة اليوم: تقرير كامل بنسخة واحدة للمحاسبة، وسطر هدف الأسبوع ونسبة الوصول ليه",
+  "notes": "نسبة تغير الأسبوع على الويدجت نفسه، متوسط طلبات اليوم الشغال، وزر ينسخ رابط تحميل التطبيق لأي أدمن جديد",
   "force": true
 }

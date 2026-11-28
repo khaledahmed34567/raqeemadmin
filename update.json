@@ -1,7 +1,7 @@
 {
-  "versionCode": 79,
-  "versionName": "1.0.78",
+  "versionCode": 80,
+  "versionName": "1.0.79",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.78: نسخ قفلة إمبارح يضيف الشهر وأنشط ساعة، وسطور الاتجاه في نسخ ملخص النهاردة، وتنبيه الطلبات المعلقة في الويدجت"
+  "notes": "1.0.79: الملخص الفوري يضيف سطر الشهر وأنشط ساعة زي الملخصات المجدولة، وأنشط ساعة مضافة لنسخ قفلة النهاردة"
 }

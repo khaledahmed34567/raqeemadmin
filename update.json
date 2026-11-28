@@ -1,7 +1,7 @@
 {
-  "versionCode": 63,
-  "versionName": "1.0.62",
+  "versionCode": 64,
+  "versionName": "1.0.63",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "توقع مبيعات الأسبوع، تنبيه للطلبات المفتوحة المتأخرة، وسطر الشهر في مشاركة ملخص اليوم",
+  "notes": "مؤشر هدف الشهر من الهدف اليومي، عداد الأيام الباقية في الشهر، ومبيعات الشهر على الويدجت",
   "force": true
 }

@@ -1,7 +1,7 @@
 {
-  "versionCode": 55,
-  "versionName": "1.0.54",
+  "versionCode": 56,
+  "versionName": "1.0.55",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "نسبة تغير الأسبوع على الويدجت نفسه، متوسط طلبات اليوم الشغال، وزر ينسخ رابط تحميل التطبيق لأي أدمن جديد",
+  "notes": "إشعار قفلة اليوم 11 بالليل بالتقرير الكامل تلقائي، وعدّاد تقييمات النهاردة (مع المنخفضة)",
   "force": true
 }

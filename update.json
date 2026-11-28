@@ -1,7 +1,7 @@
 {
-  "versionCode": 74,
-  "versionName": "1.0.73",
+  "versionCode": 75,
+  "versionName": "1.0.74",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.73: اتجاه متوسط طلبات اليوم مقارنة بالأسبوع اللي فات في كارت النهاردة، وقائمة أنشط 3 ساعات في الملخص الشامل"
+  "notes": "1.0.74: اتجاه متوسط مبيعات اليوم مقارنة بالأسبوع اللي فات في كارت النهاردة، وسطور الاتجاهين مضافة لإشعار ملخص الأسبوع"
 }

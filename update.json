@@ -1,7 +1,7 @@
 {
-  "versionCode": 56,
-  "versionName": "1.0.55",
+  "versionCode": 57,
+  "versionName": "1.0.56",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إشعار قفلة اليوم 11 بالليل بالتقرير الكامل تلقائي، وعدّاد تقييمات النهاردة (مع المنخفضة)",
+  "notes": "إشعارات إنجاز لمحطات المبيعات الكلية (10 آلاف، 50، 100 ألف...)، سطر إجمالي المبيعات وأقرب محطة، وبيانات الدعم بقت أشمل",
   "force": true
 }

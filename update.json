@@ -1,7 +1,7 @@
 {
-  "versionCode": 53,
-  "versionName": "1.0.52",
+  "versionCode": 54,
+  "versionName": "1.0.53",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "سطر يقولك متقدم أو متأخر عن خط هدف النهاردة، وردود جاهزة للعملاء بنسخة واحدة للصقها في واتساب",
+  "notes": "قفلة اليوم: تقرير كامل بنسخة واحدة للمحاسبة، وسطر هدف الأسبوع ونسبة الوصول ليه",
   "force": true
 }

@@ -1,7 +1,7 @@
 {
-  "versionCode": 70,
-  "versionName": "1.0.69",
-  "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "متوسط طلب الأسبوع داخل تقرير القفلة للمقارنة، وعدد المتسلم في نص مشاركة اليوم",
-  "force": true
+  "versionCode": 71,
+  "versionName": "1.0.70",
+  "force": true,
+  "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
+  "notes": "1.0.70: سطر الشهر في الويدجت باسم الشهر بالعربي مع عداد الأيام المتبقية، تجميع الطلبات والمبيعات في سطر الأسبوع زي ما هو"
 }

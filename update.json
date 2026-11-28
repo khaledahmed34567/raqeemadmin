@@ -1,7 +1,7 @@
 {
-  "versionCode": 76,
-  "versionName": "1.0.75",
+  "versionCode": 77,
+  "versionName": "1.0.76",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.75: مسار هدف الشهر في إشعار 9 الصبح، وسطور الشهر اللي فات وأفضل شهر في الملخص الشامل"
+  "notes": "1.0.76: سطر أنشط ساعة في إشعار قفلة اليوم ونص المشاركة، ومتوسط المبيعات اليومي مضاف لسطر الأسبوع في الويدجت"
 }

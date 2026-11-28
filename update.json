@@ -1,7 +1,7 @@
 {
-  "versionCode": 66,
-  "versionName": "1.0.65",
+  "versionCode": 67,
+  "versionName": "1.0.66",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "سطر الشهر في ملخص اليوم التلقائي، مؤشر طلب لكل تقييم، وزر نسخ تقرير الأسبوع",
+  "notes": "تاريخ القفلة بالعربي في أول التقرير، سطر الشهر في مراجعة المساء، وأعلى يوم أسبوع داخل تقرير الأسبوع",
   "force": true
 }

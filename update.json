@@ -1,7 +1,7 @@
 {
-  "versionCode": 57,
-  "versionName": "1.0.56",
+  "versionCode": 58,
+  "versionName": "1.0.57",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "إشعارات إنجاز لمحطات المبيعات الكلية (10 آلاف، 50، 100 ألف...)، سطر إجمالي المبيعات وأقرب محطة، وبيانات الدعم بقت أشمل",
+  "notes": "قفلة إمبارح بنسخة واحدة للمحاسبة الصبح، تقييمات اليوم داخل تقرير القفلة، وسطر الهدف في مراجعة المساء",
   "force": true
 }

@@ -1,7 +1,7 @@
 {
-  "versionCode": 68,
-  "versionName": "1.0.67",
+  "versionCode": 69,
+  "versionName": "1.0.68",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "هدف الأسبوع في التذكير الصباحي، سطر معانا من يوم، وزر نسخ ملخص شامل",
+  "notes": "سطر الشهر في ملخص الجمعة ونسخة الدعم، وسلسلة أيام البيع داخل تقرير القفلة",
   "force": true
 }

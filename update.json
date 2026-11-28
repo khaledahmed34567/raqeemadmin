@@ -1,7 +1,7 @@
 {
-  "versionCode": 47,
-  "versionName": "1.0.46",
+  "versionCode": 48,
+  "versionName": "1.0.47",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "نسبة التسليم، سلسلة أيام البيع المتتالية، عدّاد رسايل الدعم النهاردة، وعلامة خضرا لما هدف اليوم يتحقق",
+  "notes": "سطر يحسب التطبيق شغال معاك من كام يوم، وسطر يوريك فاضل كام طلب على أقرب محطة",
   "force": true
 }

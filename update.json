@@ -1,7 +1,7 @@
 {
-  "versionCode": 71,
-  "versionName": "1.0.70",
+  "versionCode": 72,
+  "versionName": "1.0.71",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.70: سطر الشهر في الويدجت باسم الشهر بالعربي مع عداد الأيام المتبقية، تجميع الطلبات والمبيعات في سطر الأسبوع زي ما هو"
+  "notes": "1.0.71: عداد الوضع الهادئ في صفحة الحالة يوضح فاضل قد إيه يخلص أو يبدأ، ومتوسط الطلب مضاف لنص نسخ ملخص الشهر"
 }

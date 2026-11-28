@@ -1,7 +1,7 @@
 {
-  "versionCode": 51,
-  "versionName": "1.0.50",
+  "versionCode": 52,
+  "versionName": "1.0.51",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "زر يبعت ملخص اليوم كإشعار في أي وقت، معاينة تقرير الأسبوع في دايالوج، وضغطة على رقم النسخة تنسخها",
+  "notes": "متوسط مبيعات اليوم الشغال في الأسبوع، وهدف مقترح تلقائي من متوسطك لو لسه مظبطتش هدف",
   "force": true
 }

@@ -1,7 +1,7 @@
 {
-  "versionCode": 60,
-  "versionName": "1.0.59",
+  "versionCode": 61,
+  "versionName": "1.0.60",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "أرقام الشهر بقت كاملة وصحيحة طول الشهر: سجل شهري بيحتفظ بآخر 12 شهر",
+  "notes": "سطر الشهر لحد دلوقتي داخل تقرير القفلة وتقرير الأسبوع، وسطر الشهر اللي فات على الكارت",
   "force": true
 }

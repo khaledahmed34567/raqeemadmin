@@ -1,7 +1,7 @@
 {
-  "versionCode": 81,
-  "versionName": "1.0.80",
+  "versionCode": 82,
+  "versionName": "1.0.81",
   "force": true,
   "url": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "1.0.80: سطور المحطات الجاية للطلبات والمبيعات مع المتبقي في الملخص الشامل وإشعار قفلة اليوم"
+  "notes": "1.0.81: متوسط كل التقييمات ومحطة المبيعات الجاية في إشعار القفلة، سطر هدف الأسبوع في الملخص الشامل، والمحطة الجاية للطلبات في ملخصي 2 و8"
 }

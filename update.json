@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "1.0.68",
+  "versionCode": 70,
+  "versionName": "1.0.69",
   "apkUrl": "https://khaledahmed34567.github.io/raqeemadmin/dl/RaqeemAdmin-latest.apk",
-  "notes": "سطر الشهر في ملخص الجمعة ونسخة الدعم، وسلسلة أيام البيع داخل تقرير القفلة",
+  "notes": "متوسط طلب الأسبوع داخل تقرير القفلة للمقارنة، وعدد المتسلم في نص مشاركة اليوم",
   "force": true
 }
